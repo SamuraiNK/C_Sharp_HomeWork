@@ -1,22 +1,55 @@
-﻿// Задание 2:
+﻿// // Задание 2:
 
-Console.WriteLine ("Я програма которая умеет из 2 чисел называть наибольшее");
-Console.WriteLine ("Давай попробуем, напиши первое число");
-int number_1 = Convert.ToInt32 (Console.ReadLine());
+// Console.WriteLine ("Я програма которая умеет из 2 чисел называть наибольшее");
+// Console.WriteLine ("Давай попробуем, напиши первое число");
+// int number_1 = Convert.ToInt32 (Console.ReadLine());
 
-Console.WriteLine ("Отлично а теперь введи второе");
-int number_2 = Convert.ToInt32 (Console.ReadLine());
+// Console.WriteLine ("Отлично а теперь введи второе");
+// int number_2 = Convert.ToInt32 (Console.ReadLine());
  
-if (number_1 > number_2)
+// if (number_1 > number_2)
+// {
+//     Console.WriteLine ("Это число");
+//     Console.Write (number_1 );
+// }
+// if (number_1 < number_2)
+// {
+//     Console.WriteLine ("Это число");
+//     Console.Write (number_2);
+// }
+
+
+
+
+// Задание 4:
+
+Console.WriteLine ("Приевет я стала умнее");
+Console.WriteLine ("Теперь я могу назвать наибольшее число из 3 чисел");
+
+Console.WriteLine ("Напиши первое число");
+int a = Convert.ToInt32 (Console.ReadLine ());
+
+Console.WriteLine ("Напиши второе число");
+int b = Convert.ToInt32 (Console.ReadLine ());
+
+Console.WriteLine ("Напиши третье число");
+int c = Convert.ToInt32 (Console.ReadLine ());
+
+int max_num = 0;
+
+if (a > b)
 {
-    Console.WriteLine ("Это число");
-    Console.Write (number_1 );
+    max_num = a;
 }
-if (number_1 < number_2)
+if (a < b)
 {
-    Console.WriteLine ("Это число");
-    Console.Write (number_2);
+    max_num = b;
 }
+if (max_num < c)
+{
+    max_num = c;
+}
+Console.WriteLine (max_num);
 
 
 
