@@ -23,34 +23,53 @@
 
 // Задание 4:
 
-Console.WriteLine ("Приевет я стала умнее");
-Console.WriteLine ("Теперь я могу назвать наибольшее число из 3 чисел");
+// Console.WriteLine ("Приевет я стала умнее");
+// Console.WriteLine ("Теперь я могу назвать наибольшее число из 3 чисел");
 
-Console.WriteLine ("Напиши первое число");
-int a = Convert.ToInt32 (Console.ReadLine ());
+// Console.WriteLine ("Напиши первое число");
+// int a = Convert.ToInt32 (Console.ReadLine ());
 
-Console.WriteLine ("Напиши второе число");
-int b = Convert.ToInt32 (Console.ReadLine ());
+// Console.WriteLine ("Напиши второе число");
+// int b = Convert.ToInt32 (Console.ReadLine ());
 
-Console.WriteLine ("Напиши третье число");
-int c = Convert.ToInt32 (Console.ReadLine ());
+// Console.WriteLine ("Напиши третье число");
+// int c = Convert.ToInt32 (Console.ReadLine ());
 
-int max_num = 0;
+// int max_num = 0;
 
-if (a > b)
+// if (a > b)
+// {
+//     max_num = a;
+// }
+// if (a < b)
+// {
+//     max_num = b;
+// }
+// if (max_num < c)
+// {
+//     max_num = c;
+// }
+// Console.WriteLine (max_num);
+
+
+
+
+
+// Задача 6:
+
+Console.WriteLine ("Теперь я могу говорить какое число чётное а какое нет");
+
+Console.WriteLine ("Напиши любое число");
+double a = Convert.ToInt32 (Console.ReadLine ());
+
+if (a % 2 > 0 )
 {
-    max_num = a;
+    Console.WriteLine ("Оно нечётное");
 }
-if (a < b)
+else
 {
-    max_num = b;
+    Console.WriteLine ("Да, оно чётное");
 }
-if (max_num < c)
-{
-    max_num = c;
-}
-Console.WriteLine (max_num);
-
 
 
 
