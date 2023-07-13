@@ -14,19 +14,54 @@
 
 // Задача 13
 
-Console.WriteLine ("Теперь я назову третию цифру");
-Console.WriteLine ("Введи число ");
+// Console.WriteLine ("Теперь я назову третию цифру");
+// Console.WriteLine ("Введи число ");
 
-int result_2 = Convert.ToInt32 (Console.ReadLine());
-if (result_2 < 100)
+// int result_2 = Convert.ToInt32 (Console.ReadLine());
+// if (result_2 < 100)
+// {
+//     Console.WriteLine ($"Это число 2-х значное число а надо 3-х значное");
+// }
+// else
+// {
+//     result_2 = result_2 % 10;
+//     Console.WriteLine ($"Это число {result_2}");
+// }
+
+
+
+// Задача 15
+
+
+Console.WriteLine ("Теперь назови цифру дня недели и я скажу выходные это или нет ");
+
+int num_week = Convert.ToInt32 (Console.ReadLine());
+
+if (num_week == 1)
 {
-    Console.WriteLine ($"Это число 2-х значное число а надо 3-х значное");
+    Console.WriteLine ("Это будний день");
+}
+else if (num_week == 2)
+{
+    Console.WriteLine ("Это будний день");
+}
+else if (num_week == 3)
+{
+    Console.WriteLine ("Это будний день");
+}
+else if (num_week == 4)
+{
+    Console.WriteLine ("Это будний день");
+}
+else if (num_week == 5)
+{
+    Console.WriteLine ("Это будний день");
 }
 else
 {
-    result_2 = result_2 % 10;
-Console.WriteLine ($"Это число {result_2}");
+    Console.WriteLine ("Это выходной");
 }
+
 
 
 
