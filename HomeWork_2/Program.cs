@@ -5,8 +5,7 @@
 
  int result = Convert.ToInt32 (Console.ReadLine ());
 
- result = result / 10;
- result = result % 10;
+ result = result / 10 % 10;
 
 
  Console.WriteLine ($"Это число  {result}");
@@ -24,6 +23,10 @@
  }
  else
  {
+    while (result >= 1000)
+    {
+        result_2= result_2/10;
+    }
     result_2 = result_2 % 10;
     Console.WriteLine ($"Это число {result_2}");
  }
