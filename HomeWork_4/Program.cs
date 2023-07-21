@@ -4,9 +4,18 @@
 // 2, 4 -> 16
 
 
+Console.WriteLine("Введите число которое будут возводить в степень");
+int numA = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Введите число которое будете возводит");
-int numA = Convert.Toint32(Console.ReadLine());
 
-Console.WriteLine("Введите степень число ");
-int numB = Convert.Toint32(console.ReadLine());
+Console.WriteLine("Введи степень");
+int numB = Convert.ToInt32(Console.ReadLine());
+
+int result = numA;
+
+for (int i = 1; i < numB; i++)
+{
+    result = result * numA;
+}
+
+ Console.WriteLine ($"Это число {result}");
